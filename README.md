@@ -63,7 +63,6 @@ def toadstool
   puts status
 end
 ```
-
 Notice that the body of this method is calling a variable that is set in the
 `mario` method. When we run the tests, we are getting a `NameError` because
 `status` is `undefined`.
